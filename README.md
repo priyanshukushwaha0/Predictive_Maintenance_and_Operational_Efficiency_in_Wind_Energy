@@ -1,4 +1,4 @@
-#Summary
+Summary
 
 The world energy demand is increasing slowly and this has created the necessity of sustainable and environmental friendly power production mechanisms. Wind energy is one of the other options of renewable energy that has emerged as one of the most developed and commercially viable options. This energy requires wind turbines and due to its complex mechanical attributes and exposure to harsh climate factors often leads to failure of components. Such failures may affect the working efficiency and increase the maintenance expenses.
 
@@ -13,6 +13,7 @@ Predictive maintenance uses sensor information and analysis methods to measure a
 The sensors fitted across different machines involved in the process of energy generation collect data related to various environmental factors (temperature, humidity, wind speed, etc.) and additional features related to various parts of the wind turbine (gearbox, tower, blades, break, etc.).
 
 Objective
+
 A company working on improving the machinery/processes involved in the production of wind energy using machine learning and has collected data of generator failure of wind turbines using sensors. They have shared a ciphered version of the data, as the data collected through sensors is confidential (the type of data collected varies with companies). Data has 40 predictors, 40000 observations in the training set and 10000 in the test set.
 
 The objective is to build various classification models, tune them, and find the best one that will help identify failures so that the generator could be repaired before failing/breaking to reduce the maintenance cost. The different costs associated with maintenance are as follows:
