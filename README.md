@@ -1,8 +1,11 @@
-Summary
+# Predictive_Maintenance_and_Operational_Efficiency_in_Wind_Energy
+
+## Summary
 
 The world energy demand is increasing slowly and this has created the necessity of sustainable and environmental friendly power production mechanisms. Wind energy is one of the other options of renewable energy that has emerged as one of the most developed and commercially viable options. This energy requires wind turbines and due to its complex mechanical attributes and exposure to harsh climate factors often leads to failure of components. Such failures may affect the working efficiency and increase the maintenance expenses.
 
-Conventional maintenance approaches such as reactive maintenance, where problems are resolved after their occurrence and preventive maintenance, where maintenance is conducted according to a timetable are either too expensive or fail to accurately forecast possible problems. Conversely, predictive maintenance is based on sensor technology, data analytics and machine learning that predict equipment failure before it occurs. This type of preventive approach provide the operators the opportunity to perform maintenance only when required, which minimizes downtime and maximizes reliability of the system.
+Conventional maintenance approaches such as reactive maintenance, where problems are resolved after their occurrence and preventive maintenance, where maintenance is conducted according to a timetable are either too expensive or fail to accurately forecast possible
+problems. Conversely, predictive maintenance is based on sensor technology, data analytics and machine learning that predict equipment failure before it occurs. This type of preventive approach provide the operators the opportunity to perform maintenance only when required, which minimizes downtime and maximizes reliability of the system.
 
 Renewable energy sources play an increasingly important role in the global energy mix, as the effort to reduce the environmental impact of energy production increases.
 
@@ -12,19 +15,21 @@ Predictive maintenance uses sensor information and analysis methods to measure a
 
 The sensors fitted across different machines involved in the process of energy generation collect data related to various environmental factors (temperature, humidity, wind speed, etc.) and additional features related to various parts of the wind turbine (gearbox, tower, blades, break, etc.).
 
-Objective
+## Objective
 
 A company working on improving the machinery/processes involved in the production of wind energy using machine learning and has collected data of generator failure of wind turbines using sensors. They have shared a ciphered version of the data, as the data collected through sensors is confidential (the type of data collected varies with companies). Data has 40 predictors, 40000 observations in the training set and 10000 in the test set.
 
 The objective is to build various classification models, tune them, and find the best one that will help identify failures so that the generator could be repaired before failing/breaking to reduce the maintenance cost. The different costs associated with maintenance are as follows:
 
-Replacement cost = $40,000
-Repair cost = $15,000
-Inspection cost = $5,000
+- `Replacement cost = $40,000`
+- `Repair cost = $15,000`
+- `Inspection cost = $5,000`
+
 “1” in the target variables should be considered as “failure” and “0” will represent “No failure”.
 
-Data Description
-The data provided is a transformed version of original data which was collected using sensors.
-Train.csv - To be used for training and tuning of models.
-Test.csv - To be used only for testing the performance of the final best model.
-Both the datasets consist of 40 predictor variables and 1 target variable
+## Data Description
+
+- The data provided is a transformed version of original data which was collected using sensors.
+- Train.csv - To be used for training and tuning of models.
+- Test.csv - To be used only for testing the performance of the final best model.
+- Both the datasets consist of 40 predictor variables and 1 target variable
