@@ -1,0 +1,1 @@
+# Predictive_Maintenance_and_Operational_Efficiency_in_Wind_Energy
